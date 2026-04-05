@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.lv3_1": {
+			"loop": true,
+			"bones": {
+				"LS3": {
+					"rotation": [90, 0, 90],
+					"position": [1, -13, -2],
+					"scale": 0.8
+				}
+			}
+		},
+		"animation.model.lv3_2": {
+			"loop": true,
+			"bones": {
+				"LS3": {
+					"rotation": [24.34874, -18.3675, -124.16096],
+					"position": [7, -23, 10]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ls:legendary_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": [
+            {
+                "item": "ls:legendary_ingot"
+            }
+        ],
+        "pattern": [
+            "###",
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "ls:legendary_ingot"
+            }
+        },
+        "result": {
+            "item": "ls:legendary_block"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "ls:structures/floating_island_feature"
+        },
+        "structure_name": "ls:floating_island",
+        "adjustment_radius": 15,
+        "facing_direction": "random",
+        "constraints": {
+            "unburied": {}
+        }
+    }
+}

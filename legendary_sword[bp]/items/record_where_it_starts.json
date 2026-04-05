@@ -1,0 +1,25 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ls:record_where_it_starts"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "%item.record.name\n§7%item.record_where_it_starts.desc"
+            },
+            "minecraft:icon": "record_where_it_starts",
+            "minecraft:rarity": "uncommon",
+            "minecraft:record": {
+                "duration": 180,
+                "comparator_signal": 15
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:music_disc"
+                ]
+            },
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

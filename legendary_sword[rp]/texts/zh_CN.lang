@@ -1,0 +1,69 @@
+//core
+pack.name=传说之剑·资源包
+pack.description=传说之剑的配套资源包  |  测试版2.0.0-alpha.1
+
+//catalogs
+ls:itemGroup.name.ores=传说之剑·矿物
+ls:itemGroup.name.trinkets=传说之剑·饰品
+ls:itemGroup.name.legendary_sword=传说之剑·传说之剑
+ls:itemGroup.name.doll=传说之剑·玩偶
+ls:itemGroup.name.developersdoll=传说之剑·创作团队玩偶
+
+//items
+ls.broken_sword.name=残之剑
+ls.returning_sword.name=归来之剑
+ls.hero_sword.name=英雄之剑
+ls.legendary_sword.name=传说之剑
+item.ls:legendary_ingot=传说之锭
+item.ls:legendary_nugget=传说之粒
+item.ls:forgotten_book=遗忘之书
+item.ls:fruit_of_victory=争胜果
+item.ls:edict_of_the_end_crusade=终界讨伐之诏
+item.record_where_it_starts.desc=FREirc - 始生之墟
+item.ls:blazing_ingot=赤焰锭
+
+item.ls:blazing_sword=赤焰剑
+item.ls:xinghua_sword=星华剑
+
+item.ls:crimson_spear=赤璋长枪
+item.ls:blazing_wand=烈焰魔杖
+
+item.ls:hopeful_coin=希望之币
+item.ls:mana_seed=魔力果种子
+item.ls:mana_stone=魔力石
+item.ls:red_lantern=红灯笼
+item.ls:redstone_chip=红石芯片
+item.ls:revival_compass=苏生星盘
+item.ls:revival_compass_damaged=苏生星盘-损坏
+item.ls:steel_core_heart=钢甲之心
+
+item.ls:flower_hairpin=花之发簪
+item.ls:sword_talisman=剑符箓
+item.ls:tear_hairpin=泪之发簪
+item.ls:tripling_quiver=三重箭袋
+item.ls:winecontaining_gourd=酒葫芦
+
+//blocks
+item.ls:alex_doll=艾利克斯 玩偶
+item.ls:lin_xinghua_doll=林星华 玩偶
+item.ls:livia_redgear_doll=利薇娅•红枢 玩偶
+item.ls:olivia_fieryn_doll=奥利维亚•绯焰 玩偶
+item.ls:rex_anvil_doll=雷克斯•铁砧 玩偶
+item.ls:silas_frostborne_doll=塞拉斯•霜裔 玩偶
+item.ls:steve_doll=史蒂夫 玩偶
+item.ls:su_kuina_doll=苏葵娜 玩偶
+item.ls:victor_nightbrew_doll=维克多•夜酿 玩偶
+
+item.ls:jdingot_doll=JDingot 玩偶
+item.ls:kuluo_d_doll=KuLou_D 玩偶
+item.ls:kusanagi_sans_doll=草薙杉斯 玩偶
+item.ls:luning39_doll=Luning39 玩偶
+item.ls:mccaptain5412_doll=星零大队长 玩偶
+item.ls:mings9210_doll=铭杉 玩偶
+item.ls:slimedragon_doll=小史龙吖Slime_Dragon 玩偶
+item.ls:stonenugget_doll=StoneNugget 玩偶
+item.ls:wangxiaojin_doll=哈基尽 玩偶
+item.ls:xiris_doll=小希Xiris 玩偶
+
+tile.ls:legendary_block.name=传说之块
+tile.ls:secretary_ore.name=秘密之矿

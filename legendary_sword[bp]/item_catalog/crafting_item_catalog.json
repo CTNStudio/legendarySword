@@ -1,0 +1,85 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "equipment",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "ls:returning_sword_lv1",
+                            "name": "ls:itemGroup.name.legendary_sword"
+                        },
+                        "items": [
+                            "ls:broken_sword_lv0",
+                            "ls:returning_sword_lv1",
+                            "ls:hero_sword_lv2",
+                            "ls:legendary_sword_lv3"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "icon": "ls:flower_hairpin",
+                            "name": "ls:itemGroup.name.trinkets"
+                        },
+                        "items": [
+                            "ls:flower_hairpin",
+                            "ls:sword_talisman",
+                            "ls:tear_hairpin",
+                            "ls:tripling_quiver",
+                            "ls:winecontaining_gourd"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "items",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "ls:steve_doll",
+                            "name": "ls:itemGroup.name.doll"
+                        },
+                        "items": [
+                            "ls:steve_doll",
+                            "ls:alex_doll",
+                            "ls:victor_nightbrew_doll",
+                            "ls:silas_frostborne_doll",
+                            "ls:rex_anvil_doll",
+                            "ls:lin_xinghua_doll",
+                            "ls:su_kuina_doll",
+                            "ls:livia_redgear_doll",
+                            "ls:olivia_fieryn_doll"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "icon": "ls:mccaptain5412_doll",
+                            "name": "ls:itemGroup.name.developersdoll"
+                        },
+                        "items": [
+                            "ls:mccaptain5412_doll",
+                            "ls:luning39_doll",
+                            "ls:mings9210_doll",
+                            "ls:kuluo_d_doll",
+                            "ls:kusanagi_sans_doll",
+                            "ls:jdingot_doll",
+                            "ls:wangxiaojin_doll",
+                            "ls:stonenugget_doll",
+                            "ls:slimedragon_doll",
+                            "ls:xiris_doll"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "minecraft:itemGroup.name.record"
+                        },
+                        "items": [
+                            "ls:record_where_it_starts"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

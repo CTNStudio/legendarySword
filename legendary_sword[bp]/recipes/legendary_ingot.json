@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ls:legendary_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": [
+            {
+                "item": "ls:returning_sword_lv1"
+            }
+        ],
+        "pattern": [
+            "DOD",
+            "ODO",
+            "DOD"
+        ],
+        "key": {
+            "O": {
+                "item": "ls:legendary_nugget"
+            },
+            "D": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "result": {
+            "item": "ls:legendary_ingot"
+        }
+    }
+}

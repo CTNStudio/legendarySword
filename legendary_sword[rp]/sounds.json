@@ -1,0 +1,13 @@
+{
+    "block_sounds": {
+        "sound.doll": {
+            "events": {
+                "place": {
+                    "sound": "doll.break_click",
+                    "volume": 1,
+                    "pitch": 1
+                }
+            }
+        }
+    }
+}

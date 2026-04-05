@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "product_type": "addon",
+        "authors": [
+            "星屹工作室",
+            "Luning39",
+            "星零大队长",
+            "JD",
+            "草薙杉斯",
+            "StoneNugget",
+            "铭杉",
+            "FREric",
+            "KuLou_D",
+            "爱玩的小尽",
+            "小史龙吖Slime_Dragon"
+        ]
+    },
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            26,
+            0
+        ],
+        "uuid": "2428a9f3-961c-4730-afdf-f1ef89c7a26f",
+        "version": "2.0.0-alpha.1"
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "42cde681-5dcc-45ad-913e-b4b1452abf61",
+            "version": "2.0.0-alpha.1"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "eeeccb37-8655-47fe-96eb-6c8d803644df",
+            "version": "2.0.0-alpha.1"
+        }
+    ],
+    "capabilities": [
+        "pbr"
+    ]
+}

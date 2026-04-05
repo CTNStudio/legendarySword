@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ls:returning_sword_lv1"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": [
+            {
+                "item": "ls:broken_sword_lv0"
+            }
+        ],
+        "pattern": [
+            "OXO",
+            "OOO",
+            "GSG"
+        ],
+        "key": {
+            "O": {
+                "item": "ls:legendary_ingot"
+            },
+            "X": {
+                "item": "ls:broken_sword_lv0"
+            },
+            "G": {
+                "item": "minecraft:gold_ingot"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "ls:returning_sword_lv1"
+        }
+    }
+}

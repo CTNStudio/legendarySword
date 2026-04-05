@@ -1,0 +1,41 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ls:hero_sword_lv2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": [
+            {
+                "item": "ls:returning_sword_lv1"
+            }
+        ],
+        "pattern": [
+            "OXO",
+            "ONO",
+            "GNG"
+        ],
+        "key": {
+            "O": {
+                "item": "ls:legendary_ingot"
+            },
+            "N": {
+                "item": "minecraft:netherite_ingot"
+            },
+            "X": {
+                "item": "ls:returning_sword_lv1"
+            },
+            "G": {
+                "item": "gold_ingot"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "ls:hero_sword_lv2"
+        }
+    }
+}

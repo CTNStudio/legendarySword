@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+		"doll.break_click": {
+			"category": "block",
+			"sounds": ["sounds/squeak"]
+		},
+        "record.where_it_starts": {
+            "category": "record",
+            "max_distance": 64,
+            "sounds": [
+                {
+                    "name": "sounds/music/game/records/where_it_starts",
+                    "stream": true,
+                    "volume": 0.5
+                }
+            ]
+        }
+	}
+}

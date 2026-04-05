@@ -1,0 +1,74 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "ls:legendary_block": {
+            "textures": "textures/blocks/legendary_block"
+        },
+        "ls:secretary_ore": {
+            "textures": "textures/blocks/secretary_ore"
+        },
+        "ls:lin_xinghua": {
+            "textures": "textures/blocks/dolls/lin_xinghua"
+        },
+        "ls:rex_anvil": {
+            "textures": "textures/blocks/dolls/rex_anvil"
+        },
+        "ls:su_kuina": {
+            "textures": "textures/blocks/dolls/su_kuina"
+        },
+        "ls:silas_frostborne": {
+            "textures": "textures/blocks/dolls/silas_frostborne"
+        },
+        "ls:olivia_fieryn": {
+            "textures": "textures/blocks/dolls/olivia_fieryn"
+        },
+        "ls:victor_nightbrew": {
+            "textures": "textures/blocks/dolls/victor_nightbrew"
+        },
+        "ls:livia_redgear": {
+            "textures": "textures/blocks/dolls/livia_redgear"
+        },
+        "ls:steve": {
+            "textures": "textures/entity/steve"
+        },
+        "ls:alex": {
+            "textures": "textures/entity/alex"
+        },
+        "ls:mccaptain5412": {
+            "textures": "textures/blocks/dolls/developers/mccaptain5412"
+        },
+        "ls:wangxiaojin": {
+            "textures": "textures/blocks/dolls/developers/wangxiaojin"
+        },
+        "ls:mings9210": {
+            "textures": "textures/blocks/dolls/developers/mings9210"
+        },
+        "ls:kuluo_d": {
+            "textures": "textures/blocks/dolls/developers/kuluo_d"
+        },
+        "ls:kusanagi_sans": {
+            "textures": "textures/blocks/dolls/developers/kusanagi_sans"
+        },
+        "ls:luning39": {
+            "textures": "textures/blocks/dolls/developers/luning39"
+        },
+        "ls:jdingot": {
+            "textures": "textures/blocks/dolls/developers/jdingot"
+        },
+        "ls:slimedragon": {
+            "textures": "textures/blocks/dolls/developers/slimedragon"
+        },
+        "ls:stonenugget": {
+            "textures": "textures/blocks/dolls/developers/stonenugget"
+        },
+        "ls:xiris": {
+            "textures": "textures/blocks/dolls/developers/xiris"
+        },
+        "ls:red_lantern": {
+            "textures": "textures/models/blocks/red_lantern"
+        }
+    }
+}

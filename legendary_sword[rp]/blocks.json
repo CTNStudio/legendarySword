@@ -1,0 +1,75 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "ls:secretary_ore": {
+        "textures": "ls:secretary_ore",
+        "sound": "deepslate"
+    },
+    "ls:legendary_block": {
+        "textures": "ls:legendary_block",
+        "sound": "netherite"
+    },
+    "ls:steve_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:alex_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:lin_xinghua_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:silas_frostborne_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:victor_nightbrew_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:rex_anvil_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:olivia_fieryn_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:livia_redgear_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:su_kuina_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:mccaptain5412_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:wangxiaojin_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:kuluo_d_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:mings9210_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:kusanagi_sans_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:luning39_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:stonenugget_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:xiris_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:slimedragon_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:jdingot_doll": {
+        "sound": "sound.doll"
+    },
+    "ls:red_lantern": {
+        "sound": "wool"
+    }
+}

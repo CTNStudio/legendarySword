@@ -1,0 +1,73 @@
+{
+    "format_version": "1.21.120",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ls:legendary_sword_lv3",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "%ls.legendary_sword.name\n%§9Lv3"
+            },
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:durability": {
+                "max_durability": 3122
+            },
+            "minecraft:damage": 16,
+            "minecraft:digger": {
+                "use_efficiency": false,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('minecraft:is_sword_item_destructible')"
+                        },
+                        "speed": 12
+                    },
+                    {
+                        "block": "minecraft:web",
+                        "speed": 12
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 20
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "ls:legendary_ingot"
+                        ],
+                        "repair_amount": "query.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "ls:legendary_sword_lv3"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": "legendary_sword_lv3",
+            "minecraft:fire_resistant": {
+                "value": true
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword",
+                    "minecraft:is_tool",
+                    "minecraft:netherite_tier"
+                ]
+            }
+        }
+    }
+}

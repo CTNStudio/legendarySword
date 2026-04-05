@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "ls:secretary_ore_to_legendary_nugget"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "unlock": [
+      {
+        "item": "ls:secretary_ore"
+      }
+    ],
+    "input": "ls:secretary_ore",
+    "output": "ls:legendary_nugget"
+  }
+}

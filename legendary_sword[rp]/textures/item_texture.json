@@ -1,0 +1,102 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "blazing_ingot": {
+            "textures": "textures/items/blazing_ingot"
+        },
+        "blazing_rod": {
+            "textures": "textures/items/blazing_rod"
+        },
+        "blazing_sword": {
+            "textures": "textures/items/blazing_sword"
+        },
+        "crimson_spear": {
+            "textures": "textures/items/crimson_spear"
+        },
+        "crimson_spear32×": {
+            "textures": "textures/items/crimson_spear32×"
+        },
+        "broken_sword_lv0": {
+            "textures": "textures/items/broken_sword_lv0"
+        },
+        "edict_of_the_end_crusade": {
+            "textures": "textures/items/edict_of_the_end_crusade"
+        },
+        "flower_hairpin": {
+            "textures": "textures/items/flower_hairpin"
+        },
+        "forgotten_book": {
+            "textures": "textures/items/forgotten_book"
+        },
+        "hero_sword_lv2": {
+            "textures": "textures/items/hero_sword_lv2"
+        },
+        "hopeful_coin": {
+            "textures": "textures/items/hopeful_coin"
+        },
+        "legendary_ingot": {
+            "textures": "textures/items/legendary_ingot"
+        },
+        "legendary_nugget": {
+            "textures": "textures/items/legendary_nugget"
+        },
+        "legendary_sword_lv3": {
+            "textures": "textures/items/legendary_sword_lv3"
+        },
+        "lightning_rod": {
+            "textures": "textures/items/lightning_rod"
+        },
+        "mana_fruit": {
+            "textures": "textures/items/mana_fruit"
+        },
+        "mana_rod": {
+            "textures": "textures/items/mana_rod"
+        },
+        "mana_seed": {
+            "textures": "textures/items/mana_seed"
+        },
+        "mana_stone": {
+            "textures": "textures/items/mana_stone"
+        },
+        "record_where_it_starts": {
+            "textures": "textures/items/record_where_it_starts"
+        },
+        "redstone_chip": {
+            "textures": "textures/items/redstone_chip"
+        },
+        "red_lantern": {
+            "textures": "textures/items/red_lantern"
+        },
+        "returning_sword_lv1": {
+            "textures": "textures/items/returning_sword_lv1"
+        },
+        "revival_compass": {
+            "textures": "textures/items/revival_compass"
+        },
+        "revival_compass_damaged": {
+            "textures": "textures/items/revival_compass_damaged"
+        },
+        "sanzhuxiang_items": {
+            "textures": "textures/items/sanzhuxiang_items"
+        },
+        "steel_core_heart": {
+            "textures": "textures/items/steel_core_heart"
+        },
+        "sword_talisman": {
+            "textures": "textures/items/sword_talisman"
+        },
+        "tear_hairpin": {
+            "textures": "textures/items/tear_hairpin"
+        },
+        "tripling_quiver": {
+            "textures": "textures/items/tripling_quiver"
+        },
+        "winecontaining_gourd": {
+            "textures": "textures/items/winecontaining_gourd"
+        },
+        "xinghua_sword": {
+            "textures": "textures/items/xinghua_sword"
+        }
+    }
+}

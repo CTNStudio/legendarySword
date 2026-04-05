@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.blazing_wand1": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"LeYan": {
+					"rotation": [90.06675, 2.46228, 89.56223],
+					"position": [0.5, -29.5, -15],
+					"scale": 0.8
+				},
+				"Top": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [360, 360, 0]
+					}
+				}
+			}
+		},
+		"animation.model.blazing_wand2": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"LeYan": {
+					"rotation": [155.76151, 11.9162, 46.80282],
+					"position": [0.5, -53.5, 10],
+					"scale": 0.8
+				},
+				"Top": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [360, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

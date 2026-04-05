@@ -1,0 +1,81 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ls:red_lantern",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.red_lantern"
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "down"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ls:red_lantern",
+                    "render_method": "blend",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:selection_box": {
+						"origin": [
+							-7.5,
+							3,
+							-7.5
+						],
+						"size": [
+							15,
+							10,
+							15
+						]
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-7.5,
+							3,
+							-7.5
+						],
+						"size": [
+							15,
+							10,
+							15
+						]
+					},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 20
+            },
+            "minecraft:destruction_particles": {
+                "texture": "ls:red_lantern",
+                "particle_count": 30
+            },
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "obstruct_rain"
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:light_emission": 14
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ls:legendary_sword_lv3"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "unlock": [
+            {
+                "item": "ls:hero_sword_lv2"
+            }
+        ],
+        "pattern": [
+            "OMO",
+            "MXM",
+            "OMO"
+        ],
+        "key": {
+            "O": {
+                "item": "ls:legendary_ingot"
+            },
+            "M": {
+                "item": "minecraft:diamond_block"
+            },
+            "X": {
+                "item": "ls:hero_sword_lv2"
+            }
+        },
+        "result": {
+            "item": "ls:legendary_sword_lv3"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.21.120",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ls:blazing_ingot",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "blazing_ingot",
+            "minecraft:fire_resistant": {
+                "value": true
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.lv2_1": {
+			"loop": true,
+			"bones": {
+				"LS2": {
+					"rotation": [90, 0, -90],
+					"position": [0, -2, 4]
+				}
+			}
+		},
+		"animation.model.lv2_2": {
+			"loop": true,
+			"bones": {
+				"LS2": {
+					"rotation": [23.21421, -17.72165, -137.01166],
+					"position": [4, -4, 8]
+				}
+			}
+		}
+	}
+}

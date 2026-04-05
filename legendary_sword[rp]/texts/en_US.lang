@@ -1,0 +1,68 @@
+//core
+pack.name=Legendary Sword·Resource Pack
+pack.description=Resource pack of Legendary Sword | Trail 2.0.0-alpha.1
+
+//catalogs
+ls:itemGroup.name.ores=Legendary Sword·Ores
+ls:itemGroup.name.trinkets=Legendary Sword·Trinkets
+ls:itemGroup.name.legendary_sword=Legendary Sword·Legendary Swords
+ls:itemGroup.name.doll=Legendary Sword·Dolls
+ls:itemGroup.name.developersdoll=Legendary Sword·Developers' Dolls
+
+//items
+ls.broken_sword.name=Broken Sword
+ls.returning_sword.name=Returning Sword
+ls.hero_sword.name=Heroic Sword
+ls.legendary_sword.name=Legendary Sword
+item.ls:legendary_ingot=Legendary Ingot
+item.ls:legendary_nugget=Legendary Nugget
+item.ls:forgotten_book=The Forgotten Book
+item.ls:fruit_of_victory=Victorious Fruit
+item.ls:edict_of_the_end_crusade=Edict of an Onslaught against the End
+item.record_where_it_starts.desc=FREirc - Where It Starts
+
+item.ls:blazing_ingot=Blazing Ingot
+item.ls:xinghua_sword=Xinghua Sword
+
+item.ls:crimson_spear=Crimson Spear
+item.ls:blazing_wand=Blazing Wand
+
+item.ls:hopeful_coin=Hopeful Coin
+item.ls:mana_seed=Mana Seed
+item.ls:mana_stone=Mana Stone
+item.ls:red_lantern=Red Lantern
+item.ls:redstone_chip=Redstone Chip
+item.ls:revival_compass=Revival Compass
+item.ls:revival_compass_damaged=Revival Compass-Damaged
+item.ls:steel_core_heart=Steel Core Heart
+
+item.ls:flower_hairpin=Flower Hairpin
+item.ls:sword_talisman=Sword Talisman
+item.ls:tear_hairpin=Tear Hairpin
+item.ls:tripling_quiver=Tripling Quiver
+item.ls:winecontaining_gourd=Wine-Containing
+
+//blocks
+item.ls:alex_doll=Alex Doll
+item.ls:lin_xinghua_doll=Lin Xinghua Doll
+item.ls:livia_redgear_doll=Livia Redgear Doll
+item.ls:olivia_fieryn_doll=Olivia Fieryn Doll
+item.ls:rex_anvil_doll=Rex Anvil Doll
+item.ls:silas_frostborne_doll=Silas Frostborne Doll
+item.ls:steve_doll=Steve Doll
+item.ls:su_kuina_doll=Su Kuina Doll
+item.ls:victor_nightbrew_doll=Victor Nightbrew Doll
+
+item.ls:jdingot_doll=JDingot Doll
+item.ls:kuluo_d_doll=KuLou_D Doll
+item.ls:kusanagi_sans_doll=Kusanagi_Sans Doll
+item.ls:luning39_doll=Luning39 Doll
+item.ls:mccaptain5412_doll=Mccaptain5412 Doll
+item.ls:mings9210_doll=Mings9210 Doll
+item.ls:slimedragon_doll=Slime_Dragon Doll
+item.ls:stonenugget_doll=StoneNugget Doll
+item.ls:wangxiaojin_doll=WangXiaoJin Doll
+item.ls:xiris_doll=Xiris Doll
+
+tile.ls:legendary_block.name=Legendary Block
+tile.ls:secretary_ore.name=Secretary Ore
