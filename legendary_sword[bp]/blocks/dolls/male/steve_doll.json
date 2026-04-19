@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:steve_doll",
+            "identifier": "legendary_sword:steve_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:steve",
+                    "texture": "legendary_sword:steve",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.male"
             },
-            "minecraft:loot": "loot_tables/dolls/steve_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/steve_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:steve",
+                "texture": "legendary_sword:steve",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

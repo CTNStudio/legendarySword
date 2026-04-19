@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:rex_anvil_doll",
+            "identifier": "legendary_sword:rex_anvil_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:rex_anvil",
+                    "texture": "legendary_sword:rex_anvil",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.male"
             },
-            "minecraft:loot": "loot_tables/dolls/rex_anvil_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/rex_anvil_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:rex_anvil",
+                "texture": "legendary_sword:rex_anvil",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

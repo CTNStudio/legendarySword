@@ -2,13 +2,13 @@
     "format_version": "1.17",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "ls:furnace_steel_core_heart"
+            "identifier": "legendary_sword:furnace_steel_core_heart"
         },
         "tags": [
             "furnace",
             "blast_furnace"
         ],
-        "input": "ls:steel_core_heart",
+        "input": "legendary_sword:steel_core_heart",
         "output": "minecraft:iron_ingot"
     }
 }

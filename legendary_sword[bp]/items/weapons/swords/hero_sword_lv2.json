@@ -2,14 +2,14 @@
     "format_version": "1.21.120",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:hero_sword_lv2",
+            "identifier": "legendary_sword:hero_sword_lv2",
             "menu_category": {
                 "category": "equipment"
             }
         },
         "components": {
             "minecraft:display_name": {
-                "value": "%ls.hero_sword.name\n%§9Lv2"
+                "value": "%legendary_sword.hero_sword.name\n%§9Lv2"
             },
             "minecraft:can_destroy_in_creative": false,
             "minecraft:durability": {
@@ -43,7 +43,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "ls:legendary_ingot"
+                            "legendary_sword:legendary_ingot"
                         ],
                         "repair_amount": "query.max_durability * 0.25"
                     },

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:slimedragon_doll",
+            "identifier": "legendary_sword:slimedragon_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,7 +75,7 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:slimedragon",
+                    "texture": "legendary_sword:slimedragon",
                     "render_method": "alpha_test"
                 }
             },
@@ -83,7 +83,7 @@
                 "identifier": "geometry.player"
             },
             "minecraft:destruction_particles": {
-                "texture": "ls:slimedragon",
+                "texture": "legendary_sword:slimedragon",
                 "particle_count": 30
             },
 			"minecraft:liquid_detection": {

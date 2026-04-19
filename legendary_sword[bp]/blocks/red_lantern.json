@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:red_lantern",
+            "identifier": "legendary_sword:red_lantern",
             "menu_category": {
                 "category": "construction"
             }
@@ -22,10 +22,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:red_lantern",
+                    "texture": "legendary_sword:red_lantern",
                     "render_method": "blend",
-                    "ambient_occlusion": false,
-                    "face_dimming": false
+                    "ambient_occlusion": falegendary_sworde,
+                    "face_dimming": falegendary_sworde
                 }
             },
             "minecraft:selection_box": {
@@ -56,7 +56,7 @@
                 "seconds_to_destroy": 20
             },
             "minecraft:destruction_particles": {
-                "texture": "ls:red_lantern",
+                "texture": "legendary_sword:red_lantern",
                 "particle_count": 30
             },
 			"minecraft:liquid_detection": {

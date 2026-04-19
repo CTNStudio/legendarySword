@@ -2,7 +2,7 @@
     "format_version": "1.21.120",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:steel_core_heart",
+            "identifier": "legendary_sword:steel_core_heart",
             "menu_category": {
                 "category": "items"
             }

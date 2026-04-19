@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:attachable": {
         "description": {
-            "identifier": "ls:crimson_spear",
+            "identifier": "legendary_sword:crimson_spear",
             "materials": {
                 "default": "entity_alphatest",
                 "enchanted": "entity_alphatest_glint"

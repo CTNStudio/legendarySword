@@ -2,14 +2,14 @@
     "format_version": "1.21.120",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:legendary_sword_lv3",
+            "identifier": "legendary_sword:legendary_sword_lv3",
             "menu_category": {
                 "category": "equipment"
             }
         },
         "components": {
             "minecraft:display_name": {
-                "value": "%ls.legendary_sword.name\n%§9Lv3"
+                "value": "%legendary_sword.legendary_sword.name\n%§9Lv3"
             },
             "minecraft:can_destroy_in_creative": false,
             "minecraft:durability": {
@@ -43,13 +43,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "ls:legendary_ingot"
+                            "legendary_sword:legendary_ingot"
                         ],
                         "repair_amount": "query.max_durability * 0.25"
                     },
                     {
                         "items": [
-                            "ls:legendary_sword_lv3"
+                            "legendary_sword:legendary_sword_lv3"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:silas_frostborne_doll",
+            "identifier": "legendary_sword:silas_frostborne_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:silas_frostborne",
+                    "texture": "legendary_sword:silas_frostborne",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.male"
             },
-            "minecraft:loot": "loot_tables/dolls/silas_frostborne_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/silas_frostborne_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:silas_frostborne",
+                "texture": "legendary_sword:silas_frostborne",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

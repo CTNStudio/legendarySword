@@ -2,14 +2,14 @@
     "format_version": "1.21.120",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:returning_sword_lv1",
+            "identifier": "legendary_sword:returning_sword_lv1",
             "menu_category": {
                 "category": "equipment"
             }
         },
         "components": {
             "minecraft:display_name": {
-                "value": "%ls.returning_sword.name\n%§9Lv1§r"
+                "value": "%legendary_sword.returning_sword.name\n%§9Lv1§r"
             },
             "minecraft:can_destroy_in_creative": false,
             "minecraft:durability": {
@@ -43,13 +43,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "ls:legendary_ingot"
+                            "legendary_sword:legendary_ingot"
                         ],
                         "repair_amount": "query.max_durability * 0.25"
                     },
                     {
                         "items": [
-                            "ls:returning_sword_lv1"
+                            "legendary_sword:returning_sword_lv1"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }

@@ -2,14 +2,14 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:su_kuina_doll",
+            "identifier": "legendary_sword:su_kuina_doll",
             "menu_category": {
                "category": "items"
             }
         },
         "components": {
             "minecraft:block_placer": {
-                "block": "ls:su_kuina_doll",
+                "block": "legendary_sword:su_kuina_doll",
                 "replace_block_item": true
             },
             "minecraft:max_stack_size": 1,

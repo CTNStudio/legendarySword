@@ -2,7 +2,7 @@
     "format_version": "1.21.60",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:record_where_it_starts"
+            "identifier": "legendary_sword:record_where_it_starts"
         },
         "components": {
             "minecraft:display_name": {

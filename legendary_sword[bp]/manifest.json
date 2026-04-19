@@ -9,20 +9,20 @@
 			0
 		],
 		"uuid": "eeeccb37-8655-47fe-96eb-6c8d803644df",
-		"version": "2.0.0-alpha.1"
+		"version": "2.0.0-alpha.2"
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "fb7c56ef-bf72-4d94-8003-d8220999d4cd",
-			"version": "2.0.0-alpha.1"
+			"version": "2.0.0-alpha.2"
 		},
 		{
 			"type": "script",
 			"language": "javascript",
 			"uuid": "7d432de9-8239-4701-b2f9-abcdef123456",
 			"entry": "scripts/main.js",
-			"version": "2.0.0-alpha.1"
+			"version": "2.0.0-alpha.2"
 		}
 	],
 	"metadata": {
@@ -44,7 +44,7 @@
 	"dependencies": [
 		{
 			"uuid": "2428a9f3-961c-4730-afdf-f1ef89c7a26f",
-			"version": "2.0.0-alpha.1"
+			"version": "2.0.0-alpha.2"
 		},
 		{
 			"module_name": "@minecraft/server",

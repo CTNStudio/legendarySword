@@ -4,7 +4,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "ls:alex_doll",
+                    "name": "legendary_sword:alex_doll",
                     "functions": [
                         {
                             "function": "set_count",

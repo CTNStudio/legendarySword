@@ -2,17 +2,22 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:red_lantern",
+            "identifier": "legendary_sword:red_lantern",
             "menu_category": {
                 "category": "construction"
             }
         },
         "components": {
             "minecraft:block_placer": {
-                "block": "ls:red_lantern",
+                "block": "legendary_sword:red_lantern",
                 "replace_block_item": true
             },
-            "minecraft:icon": "red_lantern"
+            "minecraft:icon": "red_lantern",
+            "minecraft:tags": {
+                "tags": [
+                    "oreville:is_lantern"
+                ]
+            }
         }
     }
 }

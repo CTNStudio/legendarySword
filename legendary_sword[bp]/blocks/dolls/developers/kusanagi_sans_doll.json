@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:kusanagi_sans_doll",
+            "identifier": "legendary_sword:kusanagi_sans_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,7 +75,7 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:kusanagi_sans",
+                    "texture": "legendary_sword:kusanagi_sans",
                     "render_method": "alpha_test"
                 }
             },
@@ -83,7 +83,7 @@
                 "identifier": "geometry.male"
             },
             "minecraft:destruction_particles": {
-                "texture": "ls:kusanagi_sans",
+                "texture": "legendary_sword:kusanagi_sans",
                 "particle_count": 30
             },
 			"minecraft:liquid_detection": {

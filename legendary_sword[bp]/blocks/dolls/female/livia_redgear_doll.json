@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:livia_redgear_doll",
+            "identifier": "legendary_sword:livia_redgear_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:livia_redgear",
+                    "texture": "legendary_sword:livia_redgear",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.female"
             },
-            "minecraft:loot": "loot_tables/dolls/livia_redgear_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/livia_redgear_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:livia_redgear",
+                "texture": "legendary_sword:livia_redgear",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

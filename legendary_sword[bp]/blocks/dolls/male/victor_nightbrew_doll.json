@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:victor_nightbrew_doll",
+            "identifier": "legendary_sword:victor_nightbrew_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:victor_nightbrew",
+                    "texture": "legendary_sword:victor_nightbrew",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.male"
             },
-            "minecraft:loot": "loot_tables/dolls/victor_nightbrew_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/victor_nightbrew_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:victor_nightbrew",
+                "texture": "legendary_sword:victor_nightbrew",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

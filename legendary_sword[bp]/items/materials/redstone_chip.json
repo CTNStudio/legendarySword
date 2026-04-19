@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:redstone_chip",
+            "identifier": "legendary_sword:redstone_chip",
             "menu_category": {
                 "category": "items"
             }

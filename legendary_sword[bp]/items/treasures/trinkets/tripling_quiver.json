@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:tripling_quiver",
+            "identifier": "legendary_sword:tripling_quiver",
             "menu_category": {
                 "category": "equipment"
             }

@@ -2,14 +2,14 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "ls:hero_sword_lv2"
+            "identifier": "legendary_sword:hero_sword_lv2"
         },
         "tags": [
             "crafting_table"
         ],
         "unlock": [
             {
-                "item": "ls:returning_sword_lv1"
+                "item": "legendary_sword:returning_sword_lv1"
             }
         ],
         "pattern": [
@@ -19,13 +19,13 @@
         ],
         "key": {
             "O": {
-                "item": "ls:legendary_ingot"
+                "item": "legendary_sword:legendary_ingot"
             },
             "N": {
                 "item": "minecraft:netherite_ingot"
             },
             "X": {
-                "item": "ls:returning_sword_lv1"
+                "item": "legendary_sword:returning_sword_lv1"
             },
             "G": {
                 "item": "gold_ingot"
@@ -35,7 +35,7 @@
             }
         },
         "result": {
-            "item": "ls:hero_sword_lv2"
+            "item": "legendary_sword:hero_sword_lv2"
         }
     }
 }

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:jdingot_doll",
+            "identifier": "legendary_sword:jdingot_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,7 +75,7 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:jdingot",
+                    "texture": "legendary_sword:jdingot",
                     "render_method": "alpha_test"
                 }
             },
@@ -83,7 +83,7 @@
                 "identifier": "geometry.player"
             },
             "minecraft:destruction_particles": {
-                "texture": "ls:jdingot",
+                "texture": "legendary_sword:jdingot",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

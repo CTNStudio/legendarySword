@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:mccaptain5412_doll",
+            "identifier": "legendary_sword:mccaptain5412_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,7 +75,7 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:mccaptain5412",
+                    "texture": "legendary_sword:mccaptain5412",
                     "render_method": "alpha_test"
                 }
             },
@@ -83,7 +83,7 @@
                 "identifier": "geometry.player"
             },
             "minecraft:destruction_particles": {
-                "texture": "ls:mccaptain5412",
+                "texture": "legendary_sword:mccaptain5412",
                 "particle_count": 30
             },
 			"minecraft:liquid_detection": {

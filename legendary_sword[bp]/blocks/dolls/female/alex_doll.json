@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:alex_doll",
+            "identifier": "legendary_sword:alex_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:alex",
+                    "texture": "legendary_sword:alex",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.female"
             },
-            "minecraft:loot": "loot_tables/dolls/alex_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/alex_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:alex",
+                "texture": "legendary_sword:alex",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

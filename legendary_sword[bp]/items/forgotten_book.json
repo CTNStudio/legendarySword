@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:forgotten_book",
+            "identifier": "legendary_sword:forgotten_book",
             "menu_category": {
                 "category": "items"
             }

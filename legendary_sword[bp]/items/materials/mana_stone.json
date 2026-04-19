@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:mana_stone",
+            "identifier": "legendary_sword:mana_stone",
             "menu_category": {
                 "category": "items"
             }

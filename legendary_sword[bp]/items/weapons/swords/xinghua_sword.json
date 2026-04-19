@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:xinghua_sword",
+            "identifier": "legendary_sword:xinghua_sword",
             "menu_category": {
                 "category": "equipment"
             }
@@ -40,7 +40,7 @@
                 "repair_items": [
                     {
                         "items": [
-                            "ls:xinghua_sword"
+                            "legendary_sword:xinghua_sword"
                         ],
                         "repair_amount": "context.other->query.remaining_durability+0.04*context.other->query.max_durability"
                     }

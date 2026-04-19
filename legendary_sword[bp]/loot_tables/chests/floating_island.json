@@ -16,7 +16,7 @@
         },
         {
           "type": "item",
-          "name": "ls:legendary_nugget",
+          "name": "legendary_sword:legendary_nugget",
           "weight": 5,
           "functions": [
             {
@@ -62,7 +62,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ls:record_where_it_starts",
+          "name": "legendary_sword:record_where_it_starts",
           "weight": 1
         }
       ]

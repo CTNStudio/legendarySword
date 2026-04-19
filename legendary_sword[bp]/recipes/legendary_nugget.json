@@ -2,15 +2,15 @@
   "format_version": "1.12",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "ls:secretary_ore_to_legendary_nugget"
+      "identifier": "legendary_sword:secretary_ore_to_legendary_nugget"
     },
     "tags": ["furnace", "blast_furnace"],
     "unlock": [
       {
-        "item": "ls:secretary_ore"
+        "item": "legendary_sword:secretary_ore"
       }
     ],
-    "input": "ls:secretary_ore",
-    "output": "ls:legendary_nugget"
+    "input": "legendary_sword:secretary_ore",
+    "output": "legendary_sword:legendary_nugget"
   }
 }

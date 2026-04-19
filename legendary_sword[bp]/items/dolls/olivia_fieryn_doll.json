@@ -2,14 +2,14 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:olivia_fieryn_doll",
+            "identifier": "legendary_sword:olivia_fieryn_doll",
             "menu_category": {
                "category": "items"
             }
         },
         "components": {
             "minecraft:block_placer": {
-                "block": "ls:olivia_fieryn_doll",
+                "block": "legendary_sword:olivia_fieryn_doll",
                 "replace_block_item": true
             },
             "minecraft:max_stack_size": 1,

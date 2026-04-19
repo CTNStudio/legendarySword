@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:winecontaining_gourd",
+            "identifier": "legendary_sword:winecontaining_gourd",
             "menu_category": {
                 "category": "equipment"
             }

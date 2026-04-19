@@ -2,8 +2,8 @@
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
         "description": {
-            "identifier": "ls:floating_island_feature_rule",
-            "places_feature": "ls:structures/floating_island_feature"
+            "identifier": "legendary_sword:floating_island_feature_rule",
+            "places_feature": "legendary_sword:structures/floating_island_feature"
         },
         "conditions": {
             "placement_pass": "first_pass",

@@ -4,72 +4,72 @@
         1,
         0
     ],
-    "ls:secretary_ore": {
-        "textures": "ls:secretary_ore",
+    "legendary_sword:secretary_ore": {
+        "textures": "legendary_sword:secretary_ore",
         "sound": "deepslate"
     },
-    "ls:legendary_block": {
-        "textures": "ls:legendary_block",
+    "legendary_sword:legendary_block": {
+        "textures": "legendary_sword:legendary_block",
         "sound": "netherite"
     },
-    "ls:steve_doll": {
+    "legendary_sword:steve_doll": {
         "sound": "sound.doll"
     },
-    "ls:alex_doll": {
+    "legendary_sword:alex_doll": {
         "sound": "sound.doll"
     },
-    "ls:lin_xinghua_doll": {
+    "legendary_sword:lin_xinghua_doll": {
         "sound": "sound.doll"
     },
-    "ls:silas_frostborne_doll": {
+    "legendary_sword:silas_frostborne_doll": {
         "sound": "sound.doll"
     },
-    "ls:victor_nightbrew_doll": {
+    "legendary_sword:victor_nightbrew_doll": {
         "sound": "sound.doll"
     },
-    "ls:rex_anvil_doll": {
+    "legendary_sword:rex_anvil_doll": {
         "sound": "sound.doll"
     },
-    "ls:olivia_fieryn_doll": {
+    "legendary_sword:olivia_fieryn_doll": {
         "sound": "sound.doll"
     },
-    "ls:livia_redgear_doll": {
+    "legendary_sword:livia_redgear_doll": {
         "sound": "sound.doll"
     },
-    "ls:su_kuina_doll": {
+    "legendary_sword:su_kuina_doll": {
         "sound": "sound.doll"
     },
-    "ls:mccaptain5412_doll": {
+    "legendary_sword:mccaptain5412_doll": {
         "sound": "sound.doll"
     },
-    "ls:wangxiaojin_doll": {
+    "legendary_sword:wangxiaojin_doll": {
         "sound": "sound.doll"
     },
-    "ls:kuluo_d_doll": {
+    "legendary_sword:kuluo_d_doll": {
         "sound": "sound.doll"
     },
-    "ls:mings9210_doll": {
+    "legendary_sword:mings9210_doll": {
         "sound": "sound.doll"
     },
-    "ls:kusanagi_sans_doll": {
+    "legendary_sword:kusanagi_sans_doll": {
         "sound": "sound.doll"
     },
-    "ls:luning39_doll": {
+    "legendary_sword:luning39_doll": {
         "sound": "sound.doll"
     },
-    "ls:stonenugget_doll": {
+    "legendary_sword:stonenugget_doll": {
         "sound": "sound.doll"
     },
-    "ls:xiris_doll": {
+    "legendary_sword:xiris_doll": {
         "sound": "sound.doll"
     },
-    "ls:slimedragon_doll": {
+    "legendary_sword:slimedragon_doll": {
         "sound": "sound.doll"
     },
-    "ls:jdingot_doll": {
+    "legendary_sword:jdingot_doll": {
         "sound": "sound.doll"
     },
-    "ls:red_lantern": {
+    "legendary_sword:red_lantern": {
         "sound": "wool"
     }
 }

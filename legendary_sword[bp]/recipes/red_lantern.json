@@ -2,7 +2,7 @@
   "format_version": "1.20.80",
   "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "ls:red_lantern"
+      "identifier": "legendary_sword:red_lantern"
     },
 
     "tags": [ "crafting_table" ],
@@ -20,7 +20,7 @@
       }
     ],
     "result": {
-      "item": "ls:red_lantern",
+      "item": "legendary_sword:red_lantern",
       "count": 1
     }
   }

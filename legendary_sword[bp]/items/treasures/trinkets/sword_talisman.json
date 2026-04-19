@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:sword_talisman",
+            "identifier": "legendary_sword:sword_talisman",
             "menu_category": {
                 "category": "equipment"
             }

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:su_kuina_doll",
+            "identifier": "legendary_sword:su_kuina_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:su_kuina",
+                    "texture": "legendary_sword:su_kuina",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.female"
             },
-            "minecraft:loot": "loot_tables/dolls/su_kuina_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/su_kuina_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:su_kuina",
+                "texture": "legendary_sword:su_kuina",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

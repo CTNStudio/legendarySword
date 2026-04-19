@@ -2,7 +2,7 @@
     "format_version": "1.21.70",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:legendary_nugget",
+            "identifier": "legendary_sword:legendary_nugget",
             "menu_category": {
                 "category": "items"
             }

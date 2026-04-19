@@ -7,27 +7,27 @@
                 "groups": [
                     {
                         "group_identifier": {
-                            "icon": "ls:returning_sword_lv1",
-                            "name": "ls:itemGroup.name.legendary_sword"
+                            "icon": "legendary_sword:returning_sword_lv1",
+                            "name": "legendary_sword:itemGroup.name.legendary_sword"
                         },
                         "items": [
-                            "ls:broken_sword_lv0",
-                            "ls:returning_sword_lv1",
-                            "ls:hero_sword_lv2",
-                            "ls:legendary_sword_lv3"
+                            "legendary_sword:broken_sword_lv0",
+                            "legendary_sword:returning_sword_lv1",
+                            "legendary_sword:hero_sword_lv2",
+                            "legendary_sword:legendary_sword_lv3"
                         ]
                     },
                     {
                         "group_identifier": {
-                            "icon": "ls:flower_hairpin",
-                            "name": "ls:itemGroup.name.trinkets"
+                            "icon": "legendary_sword:flower_hairpin",
+                            "name": "legendary_sword:itemGroup.name.trinkets"
                         },
                         "items": [
-                            "ls:flower_hairpin",
-                            "ls:sword_talisman",
-                            "ls:tear_hairpin",
-                            "ls:tripling_quiver",
-                            "ls:winecontaining_gourd"
+                            "legendary_sword:flower_hairpin",
+                            "legendary_sword:sword_talisman",
+                            "legendary_sword:tear_hairpin",
+                            "legendary_sword:tripling_quiver",
+                            "legendary_sword:winecontaining_gourd"
                         ]
                     }
                 ]
@@ -37,37 +37,37 @@
                 "groups": [
                     {
                         "group_identifier": {
-                            "icon": "ls:steve_doll",
-                            "name": "ls:itemGroup.name.doll"
+                            "icon": "legendary_sword:steve_doll",
+                            "name": "legendary_sword:itemGroup.name.doll"
                         },
                         "items": [
-                            "ls:steve_doll",
-                            "ls:alex_doll",
-                            "ls:victor_nightbrew_doll",
-                            "ls:silas_frostborne_doll",
-                            "ls:rex_anvil_doll",
-                            "ls:lin_xinghua_doll",
-                            "ls:su_kuina_doll",
-                            "ls:livia_redgear_doll",
-                            "ls:olivia_fieryn_doll"
+                            "legendary_sword:steve_doll",
+                            "legendary_sword:alex_doll",
+                            "legendary_sword:victor_nightbrew_doll",
+                            "legendary_sword:silas_frostborne_doll",
+                            "legendary_sword:rex_anvil_doll",
+                            "legendary_sword:lin_xinghua_doll",
+                            "legendary_sword:su_kuina_doll",
+                            "legendary_sword:livia_redgear_doll",
+                            "legendary_sword:olivia_fieryn_doll"
                         ]
                     },
                     {
                         "group_identifier": {
-                            "icon": "ls:mccaptain5412_doll",
-                            "name": "ls:itemGroup.name.developersdoll"
+                            "icon": "legendary_sword:mccaptain5412_doll",
+                            "name": "legendary_sword:itemGroup.name.developersdoll"
                         },
                         "items": [
-                            "ls:mccaptain5412_doll",
-                            "ls:luning39_doll",
-                            "ls:mings9210_doll",
-                            "ls:kuluo_d_doll",
-                            "ls:kusanagi_sans_doll",
-                            "ls:jdingot_doll",
-                            "ls:wangxiaojin_doll",
-                            "ls:stonenugget_doll",
-                            "ls:slimedragon_doll",
-                            "ls:xiris_doll"
+                            "legendary_sword:mccaptain5412_doll",
+                            "legendary_sword:luning39_doll",
+                            "legendary_sword:mings9210_doll",
+                            "legendary_sword:kuluo_d_doll",
+                            "legendary_sword:kusanagi_sans_doll",
+                            "legendary_sword:jdingot_doll",
+                            "legendary_sword:wangxiaojin_doll",
+                            "legendary_sword:stonenugget_doll",
+                            "legendary_sword:slimedragon_doll",
+                            "legendary_sword:xiris_doll"
                         ]
                     },
                     {
@@ -75,7 +75,7 @@
                             "name": "minecraft:itemGroup.name.record"
                         },
                         "items": [
-                            "ls:record_where_it_starts"
+                            "legendary_sword:record_where_it_starts"
                         ]
                     }
                 ]

@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "ls:lin_xinghua_doll",
+            "identifier": "legendary_sword:lin_xinghua_doll",
             "menu_category": {
                 "category": "items"
             },
@@ -75,16 +75,16 @@
             "minecraft:selection_box": true,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ls:lin_xinghua",
+                    "texture": "legendary_sword:lin_xinghua",
                     "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
                 "identifier": "geometry.male"
             },
-            "minecraft:loot": "loot_tables/dolls/lin_xinghua_doll.json",
+            "minecraft:loot": "loot_tables/dollegendary_sword/lin_xinghua_doll.json",
             "minecraft:destruction_particles": {
-                "texture": "ls:lin_xinghua",
+                "texture": "legendary_sword:lin_xinghua",
                 "particle_count": 30
             },
             "minecraft:liquid_detection": {

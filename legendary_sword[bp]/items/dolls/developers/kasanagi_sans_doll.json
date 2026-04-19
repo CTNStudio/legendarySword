@@ -2,15 +2,15 @@
     "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "ls:kusanagi_sans_doll",
+            "identifier": "legendary_sword:kusanagi_sans_doll",
             "menu_category": {
                 "category": "items",
-                "group": "ls:itemGroup.name.developersdoll"
+                "group": "legendary_sword:itemGroup.name.developersdoll"
             }
         },
         "components": {
             "minecraft:block_placer": {
-                "block": "ls:kusanagi_sans_doll",
+                "block": "legendary_sword:kusanagi_sans_doll",
                 "replace_block_item": true
             },
             "minecraft:max_stack_size": 1,
