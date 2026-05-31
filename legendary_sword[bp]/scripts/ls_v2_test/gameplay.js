@@ -1,5 +1,12 @@
-import { world, system, ItemStack } from "@minecraft/server";
+import { world, system, ItemStack, CustomComponentParameters } from "@minecraft/server";
 import { ActionFormData, ActionFormResponse, MessageFormData, MessageFormResponse } from "@minecraft/server-ui";
+
+const ArticleData = [
+{
+  article_id: 1,
+  length: 16
+}
+]
 
 const TaskData = [
 {
@@ -251,10 +258,96 @@ function giveItem(player,typeId,count){
   }
 }
 
+function showMenuIndex(player){
+  let menuPage=new ActionFormData();
+  menuPage.title("%ls.text.MenuIndexTitle");
+  menuPage.body("%ls.text.MenuIndex.1");
+  menuPage.body("%ls.text.MenuIndex.2");
+  menuPage.button("%ls.text.menu.tasks","textures/ui/task_menu");
+  menuPage.button("%ls.text.menu.articles","textures/ui/article_menu");
+  menuPage.divider();
+  menuPage.button("%ls.text.menu.copyright","textures/ui/copyright_menu");
+  menuPage.show(player).then((response)=>{
+    if(response.canceled) return;
+    switch(response.selection){
+      case 0:
+        showTasksIndex(player);
+        break;
+      case 1:
+        articleIndex(player);
+        break;
+      case 2:
+        copyright(player);
+        break;
+    }
+  })
+}
+
+function copyright(player){
+  let copyrightPage=new ActionFormData();
+  copyrightPage.title("%ls.text.menu.copyright");
+  let copyrightBody={
+    rawtext:[]
+  }
+  for(let i=1;i<=34;i++){
+    copyrightBody.rawtext.push({translate:`%ls.text.copyright.${i}`},{text: "\n"})
+  }
+  copyrightPage.body(copyrightBody);
+  copyrightPage.button("%ls.text.return_to_menu");
+  copyrightPage.show(player).then((response)=>{
+    if(response.canceled) return;
+    showMenuIndex(player);
+  })
+}
+
+function articleIndex(player){
+  let articleIndexPage=new ActionFormData();
+  articleIndexPage.title("%ls.text.articlesTitle");
+  articleIndexPage.button("%ls.text.return_to_menu");
+  const length=ArticleData.length;
+  let unlocked_article=[];
+  for(let i=0;i<length;i++){
+    let articleId=ArticleData[i].article_id;
+    if (player.hasTag(`ls:unlocked_article.${articleId}`)){
+      unlocked_article.push(articleId);
+      articleIndexPage.button(`%ls.text.article.${articleId}.title`)
+    } 
+  }
+  if(unlocked_article.length==0) articleIndexPage.body("%ls.text.no_articles")
+  else articleIndexPage.body("%ls.text.articles");
+  articleIndexPage.show(player).then((response)=>{
+    if(response.canceled) return;
+    if (response.selection==0) showMenuIndex(player)
+    else{
+      let articleId=unlocked_article[response.selection-1]-1;
+      let article=ArticleData[articleId];
+      showArticle(player,article);
+    }
+  })
+}
+
+function showArticle(player,article){
+  let ArticlePage=new ActionFormData();
+  ArticlePage.title(`%ls.text.article.${article.article_id}.title`);
+  let articleBody={
+    rawtext:[]
+  }
+  for(let i=1;i<=article.length;i++){
+    articleBody.rawtext.push({translate:`%ls.text.article.${article.article_id}.${i}`},{text: "\n"})
+  }
+  ArticlePage.body(articleBody);
+  ArticlePage.button("%ls.text.return_to_menu");
+  ArticlePage.show(player).then((response)=>{
+    if(response.canceled) return;
+    showMenuIndex(player);
+  })
+}
+
 function showTasksIndex(player){
   let tasksIndexPage=new ActionFormData();
   tasksIndexPage.title("%ls.text.tasksIndexTitle");
   tasksIndexPage.body("%ls.text.tasksIndex");
+  tasksIndexPage.button("%ls.text.return_to_menu");
   const length=TaskData.length;
   for(let i=0;i<length;i++){
     let chapterName=TaskData[i].chapter_name;
@@ -262,8 +355,11 @@ function showTasksIndex(player){
   };
   tasksIndexPage.show(player).then((response)=>{
     if (response.canceled) return;
-    let chapter=TaskData[response.selection];
-    showChapterTaskList(chapter,player);
+    if (response.selection==0) showMenuIndex(player)
+    else{
+      let chapter=TaskData[response.selection-1];
+      showChapterTaskList(chapter,player);
+    }
   });
 }
 
@@ -436,6 +532,21 @@ world.afterEvents.itemUse.subscribe((event)=>{
   const player=event.source;
   const itemStack=event.itemStack;
   if(itemStack.typeId=="legendary_sword:forgotten_book"){
-    showTasksIndex(player)
+    showMenuIndex(player);
   }
+})
+
+system.beforeEvents.startup.subscribe((event)=>{
+  event.itemComponentRegistry.registerCustomComponent("legendary_sword:article_unlocker",{
+    onUse(event,p){
+      const { source, itemStack } = event;
+      const player=event.source;
+      let article=ArticleData[p.params.article_id-1];
+      showArticle(player,article);
+      if(!player.hasTag(`ls:unlocked_article.${article.article_id}`)){
+        player.addTag(`ls:unlocked_article.${article.article_id}`);
+        player.sendMessage({rawtext:[{translate:"ls.text.unlock_article",with:{rawtext:[{translate:`ls.text.article.${article.article_id}.title`}]}}]})
+      }
+    }
+  })
 })
